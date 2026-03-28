@@ -10,7 +10,7 @@ jobs:
   build_posix:
     runs-on: debian-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v6
 
     - name: project_configure
       run: cmake ${{github.workspace}} -B ${{github.workspace}}/build
@@ -21,7 +21,7 @@ jobs:
   build_windows:
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v6
 
     - name: project_configure
       run: cmake ${{github.workspace}} -B ${{github.workspace}}/build
