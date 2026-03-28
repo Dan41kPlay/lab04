@@ -11,8 +11,10 @@
 * используйте ~~[TravisCI](https://travis-ci.com/)~~ Github Actions для сборки на операционной системе **Linux** с использованием компиляторов **gcc** и **clang**;
 * используйте ~~[AppVeyor](https://www.appveyor.com/)~~ Github Actions для сборки на операционной системе **Windows**.
 
-See the file CI.yml
+See the file [CI.yml](/.github/workflows/CI.yml)
 
 See the Github Actions in action (lol): [All workflows](https://github.com/Dan41kPlay/lab04/actions)
 
-> The CMake lab is done (hopefully)! I may rest now :)
+> The Github Actions lab is done! I may rest now :)
+
+###### dp229
